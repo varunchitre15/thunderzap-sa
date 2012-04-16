@@ -1,0 +1,1 @@
+cmd_drivers/gpu/mali/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/gpu/mali/built-in.o drivers/gpu/mali/mali400ko/driver/src/devicedrv/mali/built-in.o 

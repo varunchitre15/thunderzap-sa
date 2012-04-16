@@ -1,0 +1,4 @@
+kernel/drivers/hwmon/hwmon.ko
+kernel/drivers/hwmon/abx500.ko
+kernel/drivers/hwmon/ab8500.ko
+kernel/drivers/hwmon/dbx500.ko

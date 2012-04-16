@@ -1,0 +1,1 @@
+cmd_drivers/video/mcde/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/video/mcde/built-in.o drivers/video/mcde/mcde.o drivers/video/mcde/display-s6e63m0.o drivers/video/mcde/smart_mtp_s6e63m0.o 

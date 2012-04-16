@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bthid/bthid.ko := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL -r  -T /home/varun.chitre15/sa_kernel/source/kernel/scripts/module-common.lds --build-id  -o drivers/bluetooth/bthid/bthid.ko drivers/bluetooth/bthid/bthid.o drivers/bluetooth/bthid/bthid.mod.o

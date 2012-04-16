@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/dma/built-in.o drivers/dma/dmaengine.o drivers/dma/ste_dma40.o drivers/dma/ste_dma40_ll.o 

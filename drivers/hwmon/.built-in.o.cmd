@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/hwmon/built-in.o drivers/hwmon/hwmon.o drivers/hwmon/abx500.o drivers/hwmon/ab8500.o drivers/hwmon/dbx500.o 

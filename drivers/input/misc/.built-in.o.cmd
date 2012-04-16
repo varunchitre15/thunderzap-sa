@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/ab8500-ponkey.o drivers/input/misc/uinput.o 

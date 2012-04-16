@@ -1,0 +1,4 @@
+kernel/drivers/sensor/compass/yas_mag_kernel_driver.ko
+kernel/drivers/sensor/mpu3050/timerirq.ko
+kernel/drivers/sensor/orientation/yas_ori_kernel_driver.ko
+kernel/drivers/sensor/proximity/gp2a_light_prox.ko

@@ -1,0 +1,1 @@
+cmd_drivers/samsung/j4fs/j4fs.ko := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL -r  -T /home/varun.chitre15/sa_kernel/source/kernel/scripts/module-common.lds --build-id  -o drivers/samsung/j4fs/j4fs.ko drivers/samsung/j4fs/j4fs.o drivers/samsung/j4fs/j4fs.mod.o

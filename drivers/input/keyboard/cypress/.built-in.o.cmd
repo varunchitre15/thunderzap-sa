@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/cypress/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/input/keyboard/cypress/built-in.o drivers/input/keyboard/cypress/cypress-touchkey.o drivers/input/keyboard/cypress/issp_main.o drivers/input/keyboard/cypress/issp_routines.o drivers/input/keyboard/cypress/issp_driver_routines.o 

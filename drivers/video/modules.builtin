@@ -1,0 +1,9 @@
+kernel/drivers/video/fb.ko
+kernel/drivers/video/sysfillrect.ko
+kernel/drivers/video/syscopyarea.ko
+kernel/drivers/video/sysimgblt.ko
+kernel/drivers/video/fb_sys_fops.ko
+kernel/drivers/video/b2r2/b2r2.ko
+kernel/drivers/video/backlight/lcd.ko
+kernel/drivers/video/backlight/backlight.ko
+kernel/drivers/video/backlight/generic_bl.ko

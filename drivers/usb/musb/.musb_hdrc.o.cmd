@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/musb_hdrc.o := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/usb/musb/musb_hdrc.o drivers/usb/musb/musb_core.o drivers/usb/musb/musb_gadget_ep0.o drivers/usb/musb/musb_gadget.o drivers/usb/musb/musb_virthub.o drivers/usb/musb/musb_host.o drivers/usb/musb/musb_debugfs.o drivers/usb/musb/ux500_dma.o 

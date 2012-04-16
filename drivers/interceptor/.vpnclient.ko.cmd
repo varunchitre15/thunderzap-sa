@@ -1,0 +1,1 @@
+cmd_drivers/interceptor/vpnclient.ko := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL -r  -T /home/varun.chitre15/sa_kernel/source/kernel/scripts/module-common.lds --build-id  -o drivers/interceptor/vpnclient.ko drivers/interceptor/vpnclient.o drivers/interceptor/vpnclient.mod.o

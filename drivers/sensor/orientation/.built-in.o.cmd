@@ -1,0 +1,1 @@
+cmd_drivers/sensor/orientation/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/sensor/orientation/built-in.o drivers/sensor/orientation/yas_ori_kernel_driver.o 

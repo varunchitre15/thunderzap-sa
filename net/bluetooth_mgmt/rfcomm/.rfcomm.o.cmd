@@ -1,0 +1,1 @@
+cmd_net/bluetooth_mgmt/rfcomm/rfcomm.o := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o net/bluetooth_mgmt/rfcomm/rfcomm.o net/bluetooth_mgmt/rfcomm/core.o net/bluetooth_mgmt/rfcomm/sock.o net/bluetooth_mgmt/rfcomm/tty.o 
