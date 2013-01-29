@@ -372,7 +372,7 @@ NORET_TYPE void panic(const char * fmt, ...)
 	int state = 0;
 
 	/* disable the SMPL feature */
-	ab8500_sysctrl_write(0x0F12, 0x1, 0x0);
+	// ab8500_sysctrl_write(0x0F12, 0x1, 0x0); // Have to disable this to overcome implict declaration error
 
 	/*
 	 * It's possible to come here directly from a panic-assertion and

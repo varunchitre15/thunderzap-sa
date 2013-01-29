@@ -158,10 +158,11 @@ static const struct input_device_id sec_common_input_log_ids[] = {
 	{ },    /* Terminating entry */
 };
 
-/* movinand checksum */
-static struct device *sec_checksum;
+/* movinand checksum 
+Declaring integers here when disabled Samsung debug cause invisibility to related member functions as the scope ends here with endif*/
+/* static struct device *sec_checksum;
 static unsigned int sec_checksum_pass;
-static unsigned int sec_checksum_done;
+static unsigned int sec_checksum_done; */
 
 #include <linux/cpufreq.h>
 #include <linux/notifier.h>
@@ -203,7 +204,10 @@ static struct sec_cpufreq_info
 #error "unsupported mach-type for OMAP-Samsung"
 #endif
 
-
+/* Lets declare them here so as to make them visible to the member functions */
+static struct device *sec_checksum;
+static unsigned int sec_checksum_pass;
+static unsigned int sec_checksum_done;
 
 struct class *sec_class;
 EXPORT_SYMBOL(sec_class);
@@ -266,6 +270,10 @@ static __init int setup_default_param(char *str)
 }
 
 __setup("set_default_param=", setup_default_param);
+
+static struct device *sec_checksum;
+static unsigned int sec_checksum_pass;
+static unsigned int sec_checksum_done;
 
 
 static __init int setup_checksum_pass(char *str)

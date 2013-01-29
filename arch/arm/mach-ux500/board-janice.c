@@ -22,7 +22,11 @@
 #include <linux/gpio.h>
 #include <linux/input.h>
 #include <linux/sec_jack.h>
-
+/* Thanks to Adi_Pat@xda for this workaround, 
+I had no clue to solve the implicit declarations here, this basically 
+makes the NMK_GPIO_ALT_A and NMK_GPIO_PULL_UP valid and usable as this
+header file contains their definitions */
+#include <plat/gpio-nomadik.h> 
 #include <linux/power_supply.h>
 #include <linux/mfd/abx500.h>
 #include <linux/mfd/ab8500.h>
