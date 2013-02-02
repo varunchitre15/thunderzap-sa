@@ -1,1 +1,0 @@
-cmd_kernel/debug/kdb/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o kernel/debug/kdb/built-in.o kernel/debug/kdb/kdb_io.o kernel/debug/kdb/kdb_main.o kernel/debug/kdb/kdb_support.o kernel/debug/kdb/kdb_bt.o kernel/debug/kdb/gen-kdb_cmds.o kernel/debug/kdb/kdb_bp.o kernel/debug/kdb/kdb_debugger.o 

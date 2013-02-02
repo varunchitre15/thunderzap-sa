@@ -1,1 +1,0 @@
-cmd_arch/arm/mach-ux500/sec_debug/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o arch/arm/mach-ux500/sec_debug/built-in.o arch/arm/mach-ux500/sec_debug/sec_pmic.o arch/arm/mach-ux500/sec_debug/sec_i2c.o 

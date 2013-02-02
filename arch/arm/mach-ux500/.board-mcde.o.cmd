@@ -1,1 +1,0 @@
-cmd_arch/arm/mach-ux500/board-mcde.o := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o arch/arm/mach-ux500/board-mcde.o arch/arm/mach-ux500/board-janice-mcde.o 

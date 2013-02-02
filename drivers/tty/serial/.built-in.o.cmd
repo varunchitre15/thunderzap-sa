@@ -1,1 +1,0 @@
-cmd_drivers/tty/serial/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/tty/serial/built-in.o drivers/tty/serial/serial_core.o drivers/tty/serial/amba-pl011.o drivers/tty/serial/kgdboc.o 

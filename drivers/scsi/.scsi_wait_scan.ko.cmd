@@ -1,1 +1,0 @@
-cmd_drivers/scsi/scsi_wait_scan.ko := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL -r  -T /home/varun.chitre15/sa_kernel/source/kernel/scripts/module-common.lds --build-id  -o drivers/scsi/scsi_wait_scan.ko drivers/scsi/scsi_wait_scan.o drivers/scsi/scsi_wait_scan.mod.o

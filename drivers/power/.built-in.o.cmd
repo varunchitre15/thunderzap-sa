@@ -1,1 +1,0 @@
-cmd_drivers/power/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/abb_charger.o drivers/power/abb_fg.o drivers/power/abb_btemp.o drivers/power/abb_chargalg.o drivers/power/abb_links.o 

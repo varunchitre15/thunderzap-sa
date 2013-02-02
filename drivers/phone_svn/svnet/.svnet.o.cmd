@@ -1,1 +1,0 @@
-cmd_drivers/phone_svn/svnet/svnet.o := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/phone_svn/svnet/svnet.o drivers/phone_svn/svnet/main.o drivers/phone_svn/svnet/pdp.o drivers/phone_svn/svnet/sipc4.o 

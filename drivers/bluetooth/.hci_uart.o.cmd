@@ -1,1 +1,0 @@
-cmd_drivers/bluetooth/hci_uart.o := /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/bluetooth/hci_uart.o drivers/bluetooth/hci_ldisc.o drivers/bluetooth/hci_h4.o drivers/bluetooth/hci_ll.o 

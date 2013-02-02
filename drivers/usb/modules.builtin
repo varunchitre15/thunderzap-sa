@@ -1,8 +1,0 @@
-kernel/drivers/usb/class/cdc-acm.ko
-kernel/drivers/usb/core/usbcore.ko
-kernel/drivers/usb/mon/usbmon.ko
-kernel/drivers/usb/musb/musb_hdrc.ko
-kernel/drivers/usb/musb/ux500.ko
-kernel/drivers/usb/otg/ab8500-usb.ko
-kernel/drivers/usb/storage/usb-storage.ko
-kernel/drivers/usb/storage/usb-libusual.ko

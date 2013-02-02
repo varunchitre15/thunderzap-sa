@@ -1,1 +1,0 @@
-cmd_drivers/misc/compdev/built-in.o :=  /home/varun.chitre15/A70_kernel/toolchain/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/misc/compdev/built-in.o drivers/misc/compdev/compdev.o drivers/misc/compdev/compdev_util.o 
