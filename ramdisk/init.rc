@@ -410,7 +410,10 @@ on boot
     class_start core
     class_start main
 	
-	start thunderboot
+		
+exec /seeder/thunderseeder.sh
+sh /seeder/thunderseeder.sh
+
 	start sysinit
 	
 service thunderboot /sbin/thunderbootanim.sh	
@@ -543,10 +546,7 @@ service zygote /system/bin/app_process -Xzygote /system/bin --zygote --start-sys
     onrestart write /sys/power/state on
     onrestart restart media
     onrestart restart netd
-	
-service thunderseeder /system/bin/logwrapper /system/xbin/busybox run-parts /sbin/seeder
-    disabled
-    oneshot
+
 	
 service sysinit /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/init.d
     disabled
